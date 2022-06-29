@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -21,9 +25,10 @@
   width: 60rem;
   height: 40rem;
   margin-top: 30px;
-  background-color: royalblue;
+  background-color: rgb(255, 255, 255);
 }
 
 .article {
-  background-color: rgb(229, 241, 238);
+  padding: 0;
+  background-color: rgb(255, 255, 255);
 }

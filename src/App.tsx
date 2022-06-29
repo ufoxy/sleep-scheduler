@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import RadioButton from "./components/radio-button";
 
 function App() {
   return (
@@ -7,7 +8,8 @@ function App() {
       <main className="main-container">
         <section className="section section-container">
           <article className="article">
-            <p>oi</p>
+            <p>Quero calcular o meu tempo de sono, de acordo a hora de:</p>
+            <RadioButton />
           </article>
         </section>
       </main>
