@@ -1,16 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import RadioButton from "./components/radio-button";
+import SleepOrWakeUp from "./components/sleep-or-wakeup";
+import StaticTimePickerLandscape from "./components/static-time-picker-landscape";
 
 function App() {
   return (
     <div className="App">
-      <main className="main-container">
+      <main>
         <section className="section section-container">
-          <article className="article">
-            <p>Quero calcular o meu tempo de sono, de acordo a hora de:</p>
-            <RadioButton />
-          </article>
+          <SleepOrWakeUp />
+          <StaticTimePickerLandscape />
         </section>
       </main>
     </div>
