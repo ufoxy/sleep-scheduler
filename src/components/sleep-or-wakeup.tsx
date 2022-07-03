@@ -1,12 +1,13 @@
 import { useEffect } from "react";
-import "./sleep-or-wakeup.css";
 import AOS from "aos";
-import "aos/dist/aos.css";
 import BasicButton from "./button";
 import wakeUp from "../assets/imgs/wake-up.png"
 import fallSleep from "../assets/imgs/zzz.png"
+import "./sleep-or-wakeup.css";
+import "aos/dist/aos.css";
 
 export default function SleepOrWakeUp() {
+
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -66,7 +67,11 @@ export default function SleepOrWakeUp() {
           </div>
         </label>
       </div>
-      <BasicButton children="Continue" />
+      <BasicButton children="Continue" href={"/h"} />
     </div>
   );
 }
+function useHistory() {
+  throw new Error("Function not implemented.");
+}
+
