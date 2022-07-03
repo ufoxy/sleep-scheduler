@@ -1,17 +1,15 @@
 import { useState, useEffect } from "react";
+import AppRouter from "./routes";
+import AOS from "aos";
 import "./App.css";
-import SleepOrWakeUp from "./components/sleep-or-wakeup";
-import StaticTimePickerLandscape from "./components/static-time-picker-landscape";
-import AOS from 'aos';
 import "aos/dist/aos.css";
 
 function App() {
-
   useEffect(() => {
     AOS.init({
       offset: 200,
       duration: 400,
-      easing: 'ease-out-sine',
+      easing: "ease-out-sine",
       delay: 150,
     });
   }, []);
@@ -19,9 +17,11 @@ function App() {
   return (
     <div className="App">
       <main>
-        <section className="section section-container" data-aos="fade-up" >
-          <SleepOrWakeUp />
-          <StaticTimePickerLandscape />
+        <section
+          className="section"
+          data-aos="fade-up"
+        >
+          <AppRouter />
         </section>
       </main>
     </div>
