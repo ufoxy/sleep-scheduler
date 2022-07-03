@@ -4,13 +4,18 @@
   box-sizing: border-box;
 }
 
+.App {
+  text-align: center;
+}
+
 .container .title {
+  width: 870px;
   font-size: 18px;
   font-weight: 500;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   color: #252f42;
-  margin-bottom: 45px;
+  margin-bottom: 55px;
 }
 
 body {
@@ -30,10 +35,6 @@ body {
   -ms-flex-align: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-}
-
-.App {
-  text-align: center;
 }
 
 .section {
