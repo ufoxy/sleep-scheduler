@@ -21,7 +21,9 @@
     "moment": "^2.29.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "recoil": "^0.7.4",
+    "use-local-storage-state": "^18.1.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
