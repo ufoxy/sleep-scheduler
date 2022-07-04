@@ -7,22 +7,17 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init({
-      offset: 200,
-      duration: 400,
-      easing: "ease-out-sine",
-      delay: 150,
+      // offset: 200,
+      // duration: 400,
+      // easing: "ease-out-sine",
+      // delay: 150,
     });
   }, []);
 
   return (
     <div className="App">
       <main>
-        <section
-          className="section"
-          data-aos="fade-up"
-        >
-          <AppRouter />
-        </section>
+        <AppRouter />
       </main>
     </div>
   );
