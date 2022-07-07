@@ -22,12 +22,27 @@ export default function ContinueAndBackButton({
     return navigate(href);
   }
 
-  const [child, setChild] = useState(<>{children}</>);
+  const [child, setChild] = useState(
+    <Button
+      style={{ padding: "10px 30px", fontSize: "14px" }}
+      variant="contained"
+      data-aos="fade"
+      data-aos-delay="1500"
+      data-aos-duration="1000"
+      data-aos-once={true}
+      onClick={() => {
+        hasFunction();
+        hasNavigate();
+      }}
+    >
+      {children}
+    </Button>
+  );
 
   useEffect(() => {
     if (anchor) {
-      setChild(<a href={href}>{children}</a>)
-    } else return
+      setChild(<a href={href}>{child}</a>);
+    } else return;
   }, [children]);
 
   return (
@@ -37,22 +52,7 @@ export default function ContinueAndBackButton({
           <span className="material-symbols-outlined icon">arrow_back</span>
         </Button>
       </div>
-      <div className="continue-button">
-        <Button
-          style={{ padding: "10px 30px", fontSize: "14px" }}
-          variant="contained"
-          data-aos="fade"
-          data-aos-delay="1500"
-          data-aos-duration="1000"
-          data-aos-once={true}
-          onClick={() => {
-            hasFunction();
-            hasNavigate();
-          }}
-        >
-          {child}
-        </Button>
-      </div>
+      <div className="continue-button">{child}</div>
     </div>
   );
 }
