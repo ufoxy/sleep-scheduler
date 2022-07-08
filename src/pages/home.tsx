@@ -54,13 +54,17 @@ function Home() {
             <p>Existem 4 fases do sono, sendo elas:</p>
             <div className="flex-row">
               <img src={sleepStages} alt="" className="sleep-stages" />
-              <p className="p-sleep-stages">
-                Na fase REM os olhos se movimentam muito rapidamente, os
-                batimentos cardíacos aumentam e os sonhos aparecem. É difícil
-                atingir o sono REM e, por isso é importante diminuir a luz do
-                ambiente e não usar o celular ou o computador antes de dormir,
-                pois assim é possível chegar ao sono REM de forma mais fácil.
-              </p>
+              <div className="sleep-stages-div">
+                <p>
+                  Na fase REM os olhos se movimentam muito rapidamente, os
+                  batimentos cardíacos aumentam e os sonhos aparecem.
+                </p>
+                <p>
+                  É difícil atingir o sono REM e, por isso é importante diminuir a luz do
+                  ambiente e não usar o celular ou o computador antes de dormir,
+                  pois assim é possível chegar ao sono REM de forma mais fácil.
+                </p>
+              </div>
             </div>
           </article>
           <article className="flex-row">
@@ -92,13 +96,15 @@ function Home() {
         <section>
             <article className="flex-row">
               <img src={clock} alt="" className="img" />
-              <div className="calculate-div flex-collumn-center">
-                <h4>Calcule o seu sono.</h4>
-                <p>
-                  Veja que horas deve acordar ou ir dormir para ter uma boa noite de
-                  sono usando a calculadora a seguir:
-                </p>
-                <BasicButton children={"Calculate"} color={"secondary"} />
+              <div className="centralize">
+                <div className="centralize calculate-div flex-collumn-center">
+                  <h4>Calcule o seu sono.</h4>
+                  <p>
+                    Veja que horas deve acordar ou ir dormir para ter uma boa noite de
+                    sono usando a calculadora a seguir:
+                  </p>
+                  <BasicButton children={"Calculate"} color={"secondary"} />
+                </div>
               </div>
             </article>
           </section>

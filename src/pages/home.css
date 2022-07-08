@@ -1,74 +1,82 @@
 .home {
-    font-family: "Ubuntu", sans-serif;
-    box-sizing: border-box;
-    min-height: 100%;
-    font-size: 14px;
-    line-height: 1.25;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  min-height: 100%;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.centralize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .calculate-div {
-    padding-top: 10rem;
-    padding-left: 4rem;
-    width: 550px;
+  width: 550px;
+  height: 330px;
+  padding-left: 4rem;
+  border-left: 1px solid rebeccapurple;
 }
 
 .flex-collumn-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article {
-    width: 1200px;
-    margin: 5rem 12rem 5rem 12rem;
+  width: 1200px;
+  margin: 5rem auto 5rem auto;
 }
 
 .flex-collumn {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .sleep-stages {
-    width: 54rem;
-    margin: 0 auto 0 auto;
+  width: 54rem;
+  margin: 0 auto 0 auto;
 }
 
 .img {
-    width: 32rem;
+  width: 32rem;
 }
 
 header {
-    font-size: 32px;
-    margin: 2rem 0;
+  font-size: 32px;
+  margin: 2rem 0;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(255, 0, 81);
+  text-decoration: none;
+  color: rgb(255, 0, 81);
 }
 
 h2 {
-    margin: 1.5rem 0;
-    font-size: 32px;
+  margin: 1.5rem 0;
+  font-size: 32px;
 }
 
 h4 {
-    margin: 0 0 1.5rem 0;
-    font-size: 28px;
+  margin: 0 0 1.5rem 0;
+  font-size: 28px;
 }
 
 p {
-    margin: 0 0 25px 0;
-    font-size: 20px;
+  margin: 0 0 25px 0;
+  font-size: 20px;
 }
 
-.p-sleep-stages {
-    padding-top: 15px;
-    padding-left: 25px;
-    border-left: 1px solid red;
+.sleep-stages-div {
+  padding-top: 15px;
+  padding-left: 25px;
+  border-left: 1px solid #9a999a;
 }
