@@ -4,14 +4,42 @@
     min-height: 100%;
     font-size: 14px;
     line-height: 1.25;
-    margin: 5rem 12rem 5rem 12rem;
-    width: 900px;
 }
 
-.calculate-container {
-    margin-top: 4rem;
-    padding-top: 4rem;
-    border-top: 1px solid red;
+.calculate-div {
+    padding-top: 10rem;
+    padding-left: 4rem;
+    width: 550px;
+}
+
+.flex-collumn-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    width: 1200px;
+    margin: 5rem 12rem 5rem 12rem;
+}
+
+.flex-collumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sleep-stages {
+    width: 54rem;
+    margin: 0 auto 0 auto;
+}
+
+.img {
+    width: 32rem;
 }
 
 header {
@@ -37,4 +65,10 @@ h4 {
 p {
     margin: 0 0 25px 0;
     font-size: 20px;
+}
+
+.p-sleep-stages {
+    padding-top: 15px;
+    padding-left: 25px;
+    border-left: 1px solid red;
 }
