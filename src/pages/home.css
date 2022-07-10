@@ -1,9 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+.header {
+  /* height: 50rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 60px;
+  margin:0;
+  background-color: #1498D5;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+section {
+  padding-top: 50px;
+}
+
+h1 {
+  border-right: 1px solid #ffffff;
+  padding-right: 15px;
+}
+
+.icon-img {
+  width: 35px;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+a {
+  color: #fff;
+}
+
 .home {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
   min-height: 100%;
   font-size: 14px;
   line-height: 1.25;
+}
+
+.sec {
+  height: 55rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(248, 248, 248, 0.7732843137254902) 8%
+  );
 }
 
 .centralize {
@@ -11,6 +64,10 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+}
+
+.div-content {
+  padding-left: 3rem;
 }
 
 .calculate-div {
@@ -47,7 +104,7 @@ article {
 }
 
 .img {
-  width: 32rem;
+  width: 35rem;
 }
 
 header {
@@ -55,28 +112,25 @@ header {
   margin: 2rem 0;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(255, 0, 81);
-}
-
 h2 {
   margin: 1.5rem 0;
   font-size: 32px;
-}
-
-h4 {
-  margin: 0 0 1.5rem 0;
-  font-size: 28px;
+  font-weight: 600;
 }
 
 p {
   margin: 0 0 25px 0;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .sleep-stages-div {
   padding-top: 15px;
   padding-left: 25px;
   border-left: 1px solid #9a999a;
+}
+
+footer {
+  height: 15rem;
+  background-color: blueviolet;
 }

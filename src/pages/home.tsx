@@ -7,20 +7,35 @@ import whySleep from "../assets/imgs/why-sleep.png";
 import clock from "../assets/imgs/calculate-clock.png"
 import BasicButton from "../components/basic-button";
 
+import github from "../assets/imgs/github.svg"
+
 function Home() {
   return (
     <div className="home">
-      <header>
-        <h1>
-          <a href="/home">Calculadora do sono</a>
-        </h1>
+      <header className="header">
+        <div className="flex-row" style={{ justifyContent: 'center', alignItems: 'center' }}>
+          <h1>
+            <a href="/home">Sleep Schedule</a>
+          </h1>
+          <a style={{ paddingLeft: '15px' }} href="https://github.com/ufoxy/sleep-schedule" aria-label="Homepage" title="GitHub">
+            <img src={github} alt="" className="icon-img" />
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+          </ul>
+        </nav>
       </header>
+
       <main>
         <section>
           <article className="flex-row">
             <img src={sleeping} alt="" className="img" />
-            <div className="flex-collumn">
-              <h2>Quanto tempo preciso dormir?</h2>
+            <div className="div-content flex-collumn">
+              <h2 style={{ color: '#6595DF' }}>Quanto tempo preciso dormir?</h2>
               <p>
                 Para programar um boa noite de sono deve-se calcular quantos
                 ciclos de 90 minutos você tem de dormir para despertar no
@@ -31,9 +46,8 @@ function Home() {
           </article>
 
           <article className="flex-row">
-            <img src={sleepFunctioning} alt="" className="img" />
-            <div className="flex-collumn">
-              <h4>Como funciona o ciclo do sono?</h4>
+            <div className="div-content flex-collumn" style={{ paddingRight: '3rem' }}>
+              <h2 style={{ color: '#5D83D8' }}>Como funciona o ciclo do sono?</h2>
               <p>
                 O ciclo do sono corresponde ao conjunto das fases do sono que
                 tem início a partir do momento que a pessoa adormece e vai até a
@@ -47,10 +61,11 @@ function Home() {
                 noite, o que correspondente a 8 horas de sono.
               </p>
             </div>
+            <img src={sleepFunctioning} alt="" className="img" />
           </article>
 
           <article className="flex-collumn">
-            <h4>Quais são as fases do sono?</h4>
+            <h2 style={{ color: '#6661B1' }}>Quais são as fases do sono?</h2>
             <p>Existem 4 fases do sono, sendo elas:</p>
             <div className="flex-row">
               <img src={sleepStages} alt="" className="sleep-stages" />
@@ -67,10 +82,10 @@ function Home() {
               </div>
             </div>
           </article>
-          <article className="flex-row">
+          <article className="flex-row" style={{ margin: '8rem auto 3rem auto' }}>
             <img src={whySleep} alt="" className="img" />
-            <div className="flex-collumn">
-              <h4>Por que precisamos dormir bem?</h4>
+            <div className="div-content flex-collumn">
+              <h2 style={{ color: '#796E90' }}>Por que precisamos dormir bem?</h2>
               <p>
                 Dormir bem é fundamental para o bom funcionamento do organismo,
                 pois é durante o sono que o organismo consegue recuperar as
@@ -86,19 +101,17 @@ function Home() {
                 inflamações no corpo, falta de energia e enfraquecimento do
                 sistema imune, por exemplo, além de também aumentar o risco de
                 desenvolver algumas doenças, como obesidade, diabetes e pressão
-                alta, por exemplo. Confira mais razões do porquê precisamos dormir
-                melhor.
+                alta, por exemplo.
               </p>
             </div>
           </article>
-        </section>
 
-        <section>
+          <div className="sec centralize" style={{ paddingBottom: '7rem', paddingTop: '2rem' }}>
             <article className="flex-row">
               <img src={clock} alt="" className="img" />
               <div className="centralize">
                 <div className="centralize calculate-div flex-collumn-center">
-                  <h4>Calcule o seu sono.</h4>
+                  <h2 style={{ color: '#8358A1' }}>Calcule o seu sono.</h2>
                   <p>
                     Veja que horas deve acordar ou ir dormir para ter uma boa noite de
                     sono usando a calculadora a seguir:
@@ -107,10 +120,10 @@ function Home() {
                 </div>
               </div>
             </article>
-          </section>
-        
+          </div>
+        </section>
       </main>
-      <footer>kotenka 2022</footer>
+      <footer>a</footer>
     </div>
   );
 }
