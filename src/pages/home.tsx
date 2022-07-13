@@ -34,42 +34,46 @@ function Home() {
         <section>
           <article className="flex-row">
             <img src={sleeping} alt="" className="img" />
-            <div className="div-content flex-collumn">
-              <h2 style={{ color: '#6595DF' }}>Quanto tempo preciso dormir?</h2>
-              <p>
-                Para programar um boa noite de sono deve-se calcular quantos
-                ciclos de 90 minutos você tem de dormir para despertar no
-                momento em que o último ciclo terminar e, assim, acordar mais
-                relaxado, com energia e boa disposição.
-              </p>
+            <div className="div-content flex-collumn centralize">
+              <div style={{ borderLeft: '8px solid #6595DF', borderRadius: '10px', paddingLeft: '30px'}}>
+                <h2 style={{ color: '#6595DF' }}>Quanto tempo preciso dormir?</h2>
+                <p>
+                  Para programar um boa noite de sono deve-se calcular quantos
+                  ciclos de 90 minutos você tem de dormir para despertar no
+                  momento em que o último ciclo terminar e, assim, acordar mais
+                  relaxado, com energia e boa disposição.
+                </p>
+              </div>
             </div>
           </article>
 
           <article className="flex-row">
-            <div className="div-content flex-collumn" style={{ paddingRight: '3rem' }}>
-              <h2 style={{ color: '#5D83D8' }}>Como funciona o ciclo do sono?</h2>
-              <p>
-                O ciclo do sono corresponde ao conjunto das fases do sono que
-                tem início a partir do momento que a pessoa adormece e vai até a
-                fase do sono REM, que é a fase do sono mais profunda e que
-                garante o sono mais reparador e mais relaxante, no entanto é
-                mais difícil de atingir essa fase do sono.
-              </p>
-              <p>
-                O corpo passa por vários ciclos que tem duração de 90 a 100
-                minutos por ciclo e normalmente são necessários 4 a 5 ciclos por
-                noite, o que correspondente a 8 horas de sono.
-              </p>
+            <div className="div-content flex-collumn centralize" style={{ paddingRight: '3rem' }}>
+              <div style={{ borderLeft: '8px solid #5D83D8', borderRadius: '10px', paddingLeft: '30px'}}>
+                <h2 style={{ color: '#5D83D8' }}>Como funciona o ciclo do sono?</h2>
+                <p>
+                  O ciclo do sono corresponde ao conjunto das fases do sono que
+                  tem início a partir do momento que a pessoa adormece e vai até a
+                  fase do sono REM, que é a fase do sono mais profunda e que
+                  garante o sono mais reparador e mais relaxante, no entanto é
+                  mais difícil de atingir essa fase do sono.
+                </p>
+                <p>
+                  O corpo passa por vários ciclos que tem duração de 90 a 100
+                  minutos por ciclo e normalmente são necessários 4 a 5 ciclos por
+                  noite, o que correspondente a 8 horas de sono.
+                </p>
+              </div>
             </div>
             <img src={sleepFunctioning} alt="" className="img" />
           </article>
 
           <article className="flex-collumn">
-            <h2 style={{ color: '#6661B1' }}>Quais são as fases do sono?</h2>
+            <h2 style={{ color: '#5272BF' }}>Quais são as fases do sono?</h2>
             <p>Existem 4 fases do sono, sendo elas:</p>
             <div className="flex-row">
               <img src={sleepStages} alt="" className="sleep-stages" />
-              <div className="sleep-stages-div">
+              <div style={{ borderLeft: '8px solid #5272BF', borderRadius: '10px', paddingLeft: '30px'}}>
                 <p>
                   Na fase REM os olhos se movimentam muito rapidamente, os
                   batimentos cardíacos aumentam e os sonhos aparecem.
@@ -84,25 +88,24 @@ function Home() {
           </article>
           <article className="flex-row" style={{ margin: '8rem auto 3rem auto' }}>
             <img src={whySleep} alt="" className="img" />
-            <div className="div-content flex-collumn">
-              <h2 style={{ color: '#796E90' }}>Por que precisamos dormir bem?</h2>
-              <p>
-                Dormir bem é fundamental para o bom funcionamento do organismo,
-                pois é durante o sono que o organismo consegue recuperar as
-                energias, regular o nível de vários hormônios fundamentais para o
-                bom funcionamento do corpo e otimizar o metabolismo. Além disso, é
-                durante o sono há a consolidação do que foi aprendido durante o
-                dia, bem como reparação dos tecidos e fortalecimento do sistema
-                imune.
-              </p>
-              <p>
-                Assim, quando não se tem uma boa noite de sono é possível que se
-                tenha algumas consequências, como alterações de humor, aumento das
-                inflamações no corpo, falta de energia e enfraquecimento do
-                sistema imune, por exemplo, além de também aumentar o risco de
-                desenvolver algumas doenças, como obesidade, diabetes e pressão
-                alta, por exemplo.
-              </p>
+            <div className="div-content flex-collumn centralize">
+              <div style={{ borderLeft: '8px solid #5B5C9F', borderRadius: '10px', paddingLeft: '30px'}}>
+                <h2 style={{ color: '#5B5C9F' }}>Por que precisamos dormir bem?</h2>
+                <p>
+                  Dormir bem é fundamental para o bom funcionamento do organismo,
+                  pois é durante o sono que o organismo consegue recuperar as
+                  energias, regular o nível de vários hormônios fundamentais para o
+                  bom funcionamento do corpo e otimizar o metabolismo.
+                </p>
+                <p>
+                  Assim, quando não se tem uma boa noite de sono é possível que se
+                  tenha algumas consequências, como alterações de humor, aumento das
+                  inflamações no corpo, falta de energia e enfraquecimento do
+                  sistema imune, por exemplo, além de também aumentar o risco de
+                  desenvolver algumas doenças, como obesidade, diabetes e pressão
+                  alta, por exemplo.
+                </p>
+              </div>
             </div>
           </article>
 
