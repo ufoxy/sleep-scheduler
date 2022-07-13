@@ -7,6 +7,7 @@
   align-items: center;
   padding-left: 200px;
   padding-right: 200px;
+  margin-bottom: 60px;
   height: 60px;
   margin:0;
   background-color: #1498D5;
@@ -15,10 +16,6 @@
   color: #fff;
   font-weight: 600;
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-}
-
-section {
-  padding-top: 50px;
 }
 
 h1 {
@@ -74,7 +71,7 @@ a {
   width: 550px;
   height: 330px;
   padding-left: 4rem;
-  border-left: 1px solid rebeccapurple;
+  border-left: 2px solid rebeccapurple;
 }
 
 .flex-collumn-center {
@@ -124,13 +121,8 @@ p {
   font-weight: 400;
 }
 
-.sleep-stages-div {
-  padding-top: 15px;
-  padding-left: 25px;
-  border-left: 1px solid #9a999a;
-}
-
 footer {
   height: 15rem;
-  background-color: blueviolet;
+  background-color: #7F4F9C;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
