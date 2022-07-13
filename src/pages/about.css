@@ -1,0 +1,97 @@
+.container {
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  min-height: 100%;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.progress-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(150, 150, 150, 0.6);
+  height: 7px;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 7px;
+  width: 0%;
+  transition: background-color 1000ms ease-out;
+}
+
+h1 {
+  border-right: 1px solid #ffffff;
+  padding-right: 15px;
+}
+
+h2 {
+  margin: 1.5rem 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 25px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.img {
+  max-width: 35rem;
+}
+
+.sec {
+  height: 51.85rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(248, 248, 248, 0.7732843137254902) 8%
+  );
+}
+
+.centralize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.content-container {
+  padding-left: 3rem;
+}
+
+.calculate-container {
+  width: 550px;
+  height: 330px;
+  padding-left: 4rem;
+  border-left: 2px solid rebeccapurple;
+}
+
+.flex-collumn-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  margin: 5rem 150px 5rem 150px;
+}
+
+.flex-collumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.sleep-stages {
+  width: 54rem;
+  margin: 0 auto 0 auto;
+}
