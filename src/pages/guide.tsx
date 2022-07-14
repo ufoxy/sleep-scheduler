@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./about.css";
+import "./guide.css";
 import sleeping from "../assets/imgs/sleeping.png";
 import sleepStages from "../assets/imgs/sleep-stages.png";
 import sleepFunctioning from "../assets/imgs/sleep-functioning.png";
@@ -8,7 +8,7 @@ import clock from "../assets/imgs/calculate-clock.png"
 import BasicButton from "../components/basic-button";
 import Navbar from "../components/navbar";
 
-function About() {
+function Guide() {
 
   const [progressBar, setProgressBar] = useState(Number)
   const [progressBarColor, setProgressBarcolor] = useState('#6595DF')
@@ -36,7 +36,6 @@ function About() {
       setProgressBarcolor('#8358A1')
     }
   }, [progressBar])
-
 
   return (
     <div className="container">
@@ -151,4 +150,4 @@ function About() {
   );
 }
 
-export default About;
+export default Guide;
