@@ -17,7 +17,7 @@ function Navbar() {
                 <ul>
                     <li><a href="/home">Home</a></li>
                     <p className="centralize">|</p>
-                    <li><a href="/about">About</a></li>
+                    <li><a href="/guide">Guide</a></li>
                 </ul>
             </nav>
         </header>
