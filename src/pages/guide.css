@@ -1,4 +1,4 @@
-.container {
+.guide-container {
   font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
   min-height: 100%;
@@ -33,7 +33,7 @@ h2 {
   font-weight: 600;
 }
 
-p {
+.guide-p {
   margin: 0 0 25px 0;
   font-size: 20px;
   font-weight: 400;
