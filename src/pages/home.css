@@ -1,7 +1,7 @@
 .super {
   font-family: "Source Sans Pro", sans-serif;
   height: 100vh;
-  background-color: rgb(250, 254, 255);
+  background-color: #faf4f4a8;
 }
 
 .home-section {
@@ -9,7 +9,6 @@
   width: 90%;
   border-radius: 20px;
   padding: 45px;
-  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
 }
 
 .home-img {
