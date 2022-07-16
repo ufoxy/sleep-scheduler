@@ -1,5 +1,5 @@
-import useLocalStorageState from "use-local-storage-state";
 import { styled } from "@mui/material/styles";
+import useLocalStorageState from "use-local-storage-state";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell, { tableCellClasses } from "@mui/material/TableCell";
@@ -7,6 +7,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import "./schedule.css"
 
 export default function Schedule() {
   const [schedule, setSchedule] = useLocalStorageState("schedule-table", {
@@ -27,23 +28,26 @@ export default function Schedule() {
 
   const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
-      backgroundColor: "blue",
-      color: theme.palette.common.white,
+      backgroundColor: "#EAF9FF",
+      color: '#000',
+      fontWeight: '600'
     },
     [`&.${tableCellClasses.body}`]: {
       fontSize: 14,
+      color: '#000',
+      fontWeight: '600'
     },
   }));
 
   const StyledTableRow = styled(TableRow)(({ theme }) => ({
     "&:nth-of-type(-n+2)": {
-      backgroundColor: "green",
+      backgroundColor: "#8CBF8C",
     },
     "&:nth-of-type(n+4)": {
-      backgroundColor: "red",
+      backgroundColor: "#E3A492",
     },
     "&:nth-of-type(3)": {
-      backgroundColor: "yellow",
+      backgroundColor: "#F2DA78",
     },
     "&:last-child td, &:last-child th": {
       border: 0,
@@ -56,7 +60,14 @@ export default function Schedule() {
 
   return (
     <div className="div-container">
-      <section className="section">
+      <section className="section section-container">
+        <div className="content-div">
+          <div className="text-container">
+            <h3 className="schedule-h3">Result:</h3>
+            <p className="schedule-p">To be considered restorative, sleep must include 5 or 6 complete 90-minute cycles.</p>
+          </div>
+          <p className="schedule-p">That’s why, below, we show you what time you should go to sleep to ensure that, following the wake up time you have chosen, you have adequate and regenerating sleep:</p>
+        </div>
         <div className="container">
           <TableContainer component={Paper}>
             <Table sx={{ minWidth: 500 }} aria-label="customized table">
