@@ -9,7 +9,7 @@ function Navbar() {
                 style={{ justifyContent: "center", alignItems: "center" }}
             >
                 <h1>
-                    <a href="/home">Sleep Scheduler</a>
+                    <a href="/">Sleep Scheduler</a>
                 </h1>
                 <a
                     style={{ paddingLeft: "15px" }}
@@ -24,7 +24,7 @@ function Navbar() {
             <nav className="stroke" id="mainNav">
                 <ul>
                     <li>
-                        <a href="/home">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <p className="centralize">|</p>
                     <li>
