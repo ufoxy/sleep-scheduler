@@ -21,8 +21,10 @@ h2 {
   margin-bottom: 1.25rem;
 }
 
-p {
+.home-p {
+  margin: 0 0 25px 0;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .button-home-container {
