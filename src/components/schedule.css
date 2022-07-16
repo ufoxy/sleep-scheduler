@@ -1,0 +1,22 @@
+.section-container {
+    width: 800px;
+}
+
+.schedule-h3 {
+    text-align: left;
+}
+
+.content-div {
+    margin-bottom: 0.85rem;
+}
+
+.text-container {
+    border-bottom: 1px solid #40B0DC;
+}
+
+.schedule-p {
+    font-size: 16;
+    font-weight: 400;
+    padding: 25px 0;
+    text-align: left;
+}
