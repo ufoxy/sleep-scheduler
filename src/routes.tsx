@@ -9,9 +9,10 @@ export default function AppRouter() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/guide" element={<About />} />
-        <Route path="/sleep-or-wake-up" element={<SleepOrWakeUp />} />
+        {/* em desenvolvimento... 
+        <Route path="/home" element={<Home />} />
+        <Route path="/guide" element={<About />} /> */}
+        <Route path="/" element={<SleepOrWakeUp />} />
         <Route path="/select-time" element={<SelectTime />} />
         <Route path="/schedule" element={<Schedule />} />
       </Routes>
