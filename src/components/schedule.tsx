@@ -15,6 +15,11 @@ export default function Schedule() {
     defaultValue: [],
   });
 
+  const [scheduleName, setScheduleName] = useLocalStorageState("wake-up-or-fall-asleep", {
+    storageSync: true,
+    defaultValue: [],
+  });
+
   console.log(schedule)
 
   function getSchedule() {
@@ -73,9 +78,9 @@ export default function Schedule() {
             <Table sx={{ minWidth: 500 }} aria-label="customized table">
               <TableHead>
                 <TableRow>
-                  <StyledTableCell align="left">Ciclos (90')</StyledTableCell>
-                  <StyledTableCell align="left">Hora de Acordar</StyledTableCell>
-                  <StyledTableCell align="left">Tempo de Sono</StyledTableCell>
+                  <StyledTableCell align="left">Cycles (90')</StyledTableCell>
+                  <StyledTableCell align="left">{`${scheduleName}`} time</StyledTableCell>
+                  <StyledTableCell align="left">Sleep time</StyledTableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
