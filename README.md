@@ -27,7 +27,7 @@ See how it's used: www.youtube.com.br
 - In the terminal, clone the project:
 
 ```
-git clone https://github.com/ufoxy/teste-frontend-estagio-v2
+git clone https://github.com/ufoxy/sleep-scheduler
 ```
 - Now install the dependencies using:
 ```
