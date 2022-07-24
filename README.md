@@ -7,7 +7,7 @@
 
 This project was created with the intuition to help people find the right time to sleep or wake up for a healthy night's sleep.
 
-To calculate a good night's sleep, it is necessary to use the sleep schedule in 90-minute cycles as a basis. In this project I used these cycles to calculate.
+To calculate a good night's sleep, it is necessary to use the sleep schedule in 90-minute cycles as a basis. In this project i used these cycles to calculate.
 
 See how it's used: www.youtube.com.br
 
@@ -21,20 +21,20 @@ See how it's used: www.youtube.com.br
 ...
 ## Getting Started
 
-- No terminal, clone o projeto: 
+- In the terminal, clone the project:
 
 ```
 git clone https://github.com/ufoxy/teste-frontend-estagio-v2
 ```
-- Agora instale as dependencias usando:
+- Now install the dependencies using:
 ```
 npm install
 ```
-- Em seguida inicie o projeto usando:
+- Then start the project using:
 ```
 npm start
 ```
-- Após compilar, irá abrir a página no seu navegador, se não abrir é só acessar o localhost:3000
+- After compiling, the page will open in your browser, if not, just access the localhost:3000
 
 ...
 
