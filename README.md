@@ -1,4 +1,3 @@
-
 ## About The Project
 <div align="center">
 <img src="https://media.discordapp.net/attachments/990708984212246529/1000841145145897070/unknown.png?width=912&height=613"></img>
@@ -14,9 +13,9 @@ See how it's used: www.youtube.com.br
 ...
 ## Built With
 
-* 🖊️ Markdown
-* 🐙 Github
-* 💻 VS Code
+* React
+* Typescript
+* Vite
 
 ...
 ## Getting Started
