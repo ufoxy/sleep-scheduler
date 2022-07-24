@@ -5,46 +5,37 @@
 </div>
 <br/>
 
-This project
+This project was created with the intuition to help people find the right time to sleep or wake up for a healthy night's sleep.
 
-### Built With
+To calculate a good night's sleep, it is necessary to use the sleep schedule in 90-minute cycles as a basis. In this project I used these cycles to calculate.
+
+See how it's used: www.youtube.com.br
+
+...
+## Built With
 
 * 🖊️ Markdown
 * 🐙 Github
 * 💻 VS Code
 
-<!-- GETTING STARTED -->
+...
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+- No terminal, clone o projeto: 
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* Git
-```sh
-sudo apt-get install git
 ```
-
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/ufoxy/sleep-scheduler
+git clone https://github.com/ufoxy/teste-frontend-estagio-v2
 ```
-2. Open VS Code
-3. Install Markdown Preview Enhancement plugin
-3. Open the README.md file and execute the following command
-```sh
-ctrl+k v
+- Agora instale as dependencias usando:
 ```
+npm install
+```
+- Em seguida inicie o projeto usando:
+```
+npm start
+```
+- Após compilar, irá abrir a página no seu navegador, se não abrir é só acessar o localhost:3000
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+...
 
 ---
