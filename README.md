@@ -1,4 +1,4 @@
-## About The Project
+## About The Project 💻
 <div align="center">
 <img src="https://media.discordapp.net/attachments/990708984212246529/1000841145145897070/unknown.png?width=912&height=613"></img>
 </div>
@@ -11,14 +11,18 @@ To calculate a good night's sleep, it is necessary to use the sleep schedule in 
 See how it's used: www.youtube.com.br
 
 ...
-## Built With
+## Languages, dependencies and libs used 📚
 
-* React
-* Typescript
-* Vite
+* [Typescript](https://www.typescriptlang.org)
+* [ReactJS](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+* [React Router](https://www.npmjs.com/package/react-router-dom)
+* [Bootstrap](https://react-bootstrap.github.io)
+* [Moment](https://www.npmjs.com/package/moment)
+* [AOS](https://www.npmjs.com/package/aos)
+* [Material-UI](https://mui.com/pt/material-ui/getting-started/overview/)
 
 ...
-## Getting Started
+## Getting Started ▶️
 
 - In the terminal, clone the project:
 
