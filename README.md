@@ -14,6 +14,7 @@ To calculate a good night's sleep, it is necessary to use the sleep schedule in 
 
 * [Typescript](https://www.typescriptlang.org)
 * [ReactJS](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+* [Vite](https://vitejs.dev/)
 * [React Router](https://www.npmjs.com/package/react-router-dom)
 * [Bootstrap](https://react-bootstrap.github.io)
 * [Moment](https://www.npmjs.com/package/moment)
