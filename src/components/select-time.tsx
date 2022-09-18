@@ -83,7 +83,6 @@ export default function SelectTime() {
                 ? calculateFallAsleep
                 : calculateWakeUp
             }
-            anchor={true}
           />
         </div>
       </section>
