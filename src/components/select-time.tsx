@@ -78,7 +78,6 @@ export default function SelectTime() {
           <ContinueAndBackButton
             children="Continue"
             href={"/schedule"}
-            nav={false}
             onclick={
               wakeUpOrFallAsleep == "Fall-Asleep"
                 ? calculateFallAsleep
