@@ -1,6 +1,6 @@
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar/navbar";
 import sweetDreamSleep from "../assets/imgs/sweet-dream-sleep.png";
-import BasicButton from "../components/basic-button";
+import BasicButton from "../components/Basic Button/basic-button";
 import "./home.css";
 
 function Home() {
