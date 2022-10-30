@@ -4,8 +4,8 @@ import sleepStages from "../assets/imgs/sleep-stages.png";
 import sleepFunctioning from "../assets/imgs/sleep-functioning.png";
 import whySleep from "../assets/imgs/why-sleep.png";
 import clock from "../assets/imgs/calculate-clock.png";
-import BasicButton from "../components/basic-button";
-import Navbar from "../components/navbar";
+import BasicButton from "../components/Basic Button/basic-button";
+import Navbar from "../components/Navbar/navbar";
 import "./guide.css";
 
 function Guide() {

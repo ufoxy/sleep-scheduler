@@ -1,7 +1,8 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import moment from "moment";
-import ContinueAndBackButton from "./continue-and-back-button";
-import ResponsiveTimePickers from "./static-time-picker-landscape";
+import ContinueAndBackButton from "../Continue and Back Button/continue-and-back-button";
+import ResponsiveTimePickers from "../Static Time Picker/static-time-picker-landscape";
 import useLocalStorageState from "use-local-storage-state";
 
 export default function SelectTime() {

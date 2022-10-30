@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import SleepOrWakeUp from "./components/sleep-or-wakeup";
-import SelectTime from "./components/select-time";
-import Schedule from "./components/schedule";
+import SleepOrWakeUp from "./components/Sleep or Wakeup/sleep-or-wakeup";
+import SelectTime from "./components/Select Time/select-time";
+import Schedule from "./components/Schedule/schedule";
 import About from "./pages/guide";
 import Home from "./pages/home";
 
