@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import useLocalStorageState from "use-local-storage-state";
 import ContinueAndBackButton from "../Continue and Back Button/continue-and-back-button";
-const wakeUp = require("../assets/imgs/wake-up.png") as string;
-const fallSleep = require("../assets/imgs/zzz.png") as string;
+import wakeUp from "../../assets/imgs/wake-up.png";
+import fallSleep from "../../assets/imgs/zzz.png";
 import "./sleep-or-wakeup.css";
 import "aos/dist/aos.css";
 
